@@ -1,0 +1,74 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  /* Navy Colors */
+  --color-navy-50: #f0f4f8;
+  --color-navy-100: #d9e2ec;
+  --color-navy-200: #bcccdc;
+  --color-navy-300: #9fb3c8;
+  --color-navy-400: #829ab1;
+  --color-navy-500: #627d98;
+  --color-navy-600: #486581;
+  --color-navy-700: #334e68;
+  --color-navy-800: #243b53;
+  --color-navy-900: #102a43;
+  --color-navy-950: #0a1929;
+
+  /* Terracotta Colors */
+  --color-terracotta-50: #fdf2f0;
+  --color-terracotta-100: #fce4df;
+  --color-terracotta-200: #f9c9bf;
+  --color-terracotta-300: #f4a492;
+  --color-terracotta-400: #ec7a5e;
+  --color-terracotta-500: #e05a3a;
+  --color-terracotta-600: #c94a2e;
+  --color-terracotta-700: #a73d26;
+  --color-terracotta-800: #8a3423;
+  --color-terracotta-900: #732f22;
+  --color-terracotta-950: #3e150e;
+
+  /* Cream Colors */
+  --color-cream-50: #fefdfb;
+  --color-cream-100: #fdf9f3;
+  --color-cream-200: #fbf3e6;
+  --color-cream-300: #f7ead4;
+  --color-cream-400: #f0dab8;
+  --color-cream-500: #e8c899;
+  --color-cream-600: #dcb176;
+  --color-cream-700: #c99455;
+  --color-cream-800: #a67743;
+  --color-cream-900: #886239;
+  --color-cream-950: #49311c;
+
+  /* Charcoal Colors */
+  --color-charcoal-50: #f6f6f6;
+  --color-charcoal-100: #e7e7e7;
+  --color-charcoal-200: #d1d1d1;
+  --color-charcoal-300: #b0b0b0;
+  --color-charcoal-400: #888888;
+  --color-charcoal-500: #6d6d6d;
+  --color-charcoal-600: #5d5d5d;
+  --color-charcoal-700: #4f4f4f;
+  --color-charcoal-800: #454545;
+  --color-charcoal-900: #3d3d3d;
+  --color-charcoal-950: #1a1a1a;
+
+  /* Fonts */
+  --font-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Montserrat', system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
